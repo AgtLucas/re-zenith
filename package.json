@@ -19,5 +19,10 @@
   "devDependencies": {
     "bs-platform": "^1.8.2",
     "webpack": "^3.4.1"
+  },
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "reason-react": "^0.2.3"
   }
 }
