@@ -4,7 +4,9 @@
   "description": "Playing with Reason React",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "concurrently --kill-others --names bs,wp -c blue,grey \"bsb -make-world -w\" \"webpack -w\"",
+    "build": "bsb -make-world && webpack",
+    "clean": "bsb -clean-world"
   },
   "repository": {
     "type": "git",
