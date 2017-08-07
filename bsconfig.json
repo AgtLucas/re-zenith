@@ -4,7 +4,8 @@
   "bs-dependencies": ["reason-react", "bs-director"],
   "sources": [
     {
-      "dir": "src"
+      "dir": "src",
+      "subdirs": ["retainedProps"]
     }
   ]
 }
